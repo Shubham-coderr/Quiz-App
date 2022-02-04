@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c0d8c0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h2 {
+  margin: 10px;
+  padding: 1rem;
+}
+.quiz-container {
+  background-color: #ebdebd;
+  border-radius: 10px;
+  box-shadow: 0 0 15px grey;
+  width: 500px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.quiz-questions {
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: #e0a078;
+  border: none;
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Mochiy Pop P One", sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ee6562;
+}
